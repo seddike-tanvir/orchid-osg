@@ -1,0 +1,122 @@
+@media only screen and (max-width: 3000px) and (min-width: 760px) {
+
+
+
+
+    *{
+        padding: 0;
+        margin: 0;
+        font-family: 'Open Sans', sans-serif;
+        background-color: transparent;
+    }
+    
+    .v_shade{
+        background:none;
+        width: 22rem;
+        height: 23rem;
+        position: fixed;
+        left: 50%; 
+        width: 400px; 
+        margin-left: -200px;
+        top: 25vh;
+    }
+    
+    .bg{
+        opacity: 5%;
+        width: 100%;
+        height: 100%;
+    
+    }
+    
+    .body_wrapper{
+        height: 120rem;
+    }
+    
+    .pre-navber{
+        width: 100vw;
+        height: 2rem;
+        background-color:#272727;
+    }
+    .pre-navber_contact{
+        margin: auto;
+        width:35rem; 
+        padding-top: .3rem;
+        /* background-color: aqua; */
+    }
+    .pre-navber_contact p{
+        display: inline-block;
+        font-size: 1rem;
+        letter-spacing: 1px;
+        color:#fdfdfd;
+    }
+    .navber{
+        height: 4.5rem;
+        width: 100vw;
+        background-color:#9621fc;
+        position:sticky;
+        top: 0rem;
+        box-shadow: 0 4px 10px 1px rgba(0, 0, 0, 0.274);}
+    .navbar-area{
+        width: 100vw;
+        height: 100%;
+    }
+    .nav-logo_area{
+        width: 25vw;
+        height: 100%;
+        position: absolute;
+        left: 4vw;
+    }
+    #img1{
+        height:3.5rem;
+        width:12rem;
+        padding-top: .5rem;
+    }
+    /*
+    .nav-logo{
+        padding-top: .7rem;
+        color: white;
+        font-family: 'Dancing Script', cursive;
+        font-size: 2rem;
+        letter-spacing: 0.4rem;
+    }
+    */
+    .nav-menu{
+        width: 50vw;
+        height: 4.5rem;
+        position: absolute;
+        right: 3vw;
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+    }
+    .nav-menu li{
+        text-decoration: none;
+        display: inline-block;
+        padding: 5px 19px 5px 19px;
+    }
+    .nav-menu li a{
+        height: 100%;
+        text-decoration: none;
+        color: #ffffff;
+        border-bottom: 5px transparent;
+        padding: 5px;
+        transition: 0.5s;
+    }
+    
+    .nav-menu li a:hover{
+        border-bottom: 5px solid  #ffffff;
+    }
+    
+    .content_area{
+        background-image: url('img/orchid-logo-transparent.png');
+    
+    
+    }
+    
+    
+
+    
+    
+    
+    
+    }
